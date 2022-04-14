@@ -1,4 +1,31 @@
 @font-face {
-    font-family: ;
-    src: url();
+    font-family: "Gilroy";
+    src: url("../fonts/Gilroy-Regular.ttf");
+}
+@font-face {
+    font-family: "Gilroy";
+    src: url("../fonts/Gilroy-Medium.ttf");
+}
+@font-face {
+    font-family: "Gilroy";
+    src: url("../fonts/Gilroy-Bold.ttf");
+}
+@font-face {
+    font-family: "Gilroy";
+    src: url("../fonts/Gilroy-Bold.ttf");
+}
+@font-face {
+    font-family: "Gilroy";
+    src: url("../fonts/Gilroy-Semibold.ttf");
+}
+/* общие настройки */
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+font-family:'Gilroy' ;
+font-size: 16px;
 }
