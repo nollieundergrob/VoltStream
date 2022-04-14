@@ -1,22 +1,24 @@
+/*Подключение ширфтов */
 @font-face {
     font-family: "Gilroy";
-    src: url("../fonts/Gilroy-Regular.ttf");
+    src: url("../fonts/Gilroy-Regular.ttf") format("truetype");
+    font-weight: 400;
 }
 @font-face {
     font-family: "Gilroy";
-    src: url("../fonts/Gilroy-Medium.ttf");
+    src: url("../fonts/Gilroy-Medium.ttf") format("truetype");
+    font-weight: 500;
 }
 @font-face {
     font-family: "Gilroy";
-    src: url("../fonts/Gilroy-Bold.ttf");
+    src: url("../fonts/Gilroy-Bold.ttf") format("truetype");
+    font-weight: 700;
 }
+
 @font-face {
     font-family: "Gilroy";
-    src: url("../fonts/Gilroy-Bold.ttf");
-}
-@font-face {
-    font-family: "Gilroy";
-    src: url("../fonts/Gilroy-Semibold.ttf");
+    src: url("../fonts/Gilroy-Semibold.ttf") format("truetype");
+    font-weight: 600;
 }
 /* общие настройки */
 *
@@ -26,6 +28,55 @@
 }
 body
 {
-font-family:'Gilroy' ;
+    color: #fff;
+font-family:'Gilroy';
 font-size: 16px;
+font-weight: 400;
+background: linear-gradient(80.5deg, #83A4BD 11.55%, #A5A2B3 24.51%, #BA929B 33.33%, #BD8689 39.89%, #C46F6A 47.85%, #C65857 55.62%, #BF4145 65.14%, #9C2E37 75.49%, #7A262E 84.66%, #5B1E23 95.55%, #421F23 103.99%, #2D1C22 111.11%);
+}
+/* container */
+.header_wrapper
+{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.container  
+{
+    max-width: 1140px;
+    padding: 0px 10px;
+    margin: 0 auto;
+}
+.header{
+    padding: 60px 0px 0px 0px;
+}
+.header_list
+{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    list-style: none;
+}
+.header_link
+{
+text-decoration: none;
+color: #fff;
+}
+.page_section
+{
+    
+}
+.phone_number
+{
+    font-size: 16px;
+    text-decoration: none;
+color: #fff;
+font-weight: 500;
+width: 150px;
+display: flex;
+justify-content: space-between;
+}
+.telephone_numb
+{
+    font-size: 12px;
 }
