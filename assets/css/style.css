@@ -260,6 +260,7 @@ header li{
 .s4_con1{
     display: flex;
     width: 400px;
+    transition: 0.5s;
     border: 1px solid rgb(255, 230, 230);
     border-radius: 20px;
     padding: 30px 10px 30px 30px;
@@ -269,7 +270,7 @@ header li{
     margin-right: 30px;
 }
 .s4_con1:hover{
-    background: #f13a3a;
+    opacity: 0.5;
 }
 .s4_text{
     font-size: 23px;
@@ -413,10 +414,12 @@ header li{
     margin-bottom: 30px;
     display: flex;
     width: 530px;
+    color: #fff;
     transition: 0.5s;
 }
 .s9_con1:not(last-child){
     margin-right: 50px;
+    color: #fff;
 }
 .s9_t{
     font-size: 23px;
@@ -428,19 +431,24 @@ header li{
     width: 360px;
     margin-top: 20px;
     display: none;
+    color: #fff;
 }
 .s9_con1:hover>.s9_con_ar{
     background: url(../images/SmallWhiteArrowTop.svg) no-repeat center center / cover;
     width: 24px;
     height: 24px;
+    color: #fff;
 }
 .s9_con1:hover>.s9_cont>.s9_text{
    display: flex;
+   color: #fff;
 }
 .s9_con_ar{
     background: url(../images/SmallWhiteArrowDown.svg) no-repeat center center / cover;
     width: 24px;
     height: 24px;
+    transition: 0.5s;
+    color: #fff;
 }
 /* footer */
 footer{
