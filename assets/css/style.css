@@ -92,6 +92,27 @@ header li{
     margin-top: 40px;
     margin-left: 60px;
 }
+.pic_introimg
+{
+    margin-left: 600px;
+    position: absolute;
+    animation: keyanimintro 5s infinite;
+}
+@keyframes keyanimintro {
+    0%
+    {
+        margin-top: 0px;
+    }
+    50%
+    {
+        margin-top: 10px;
+    }
+    100%
+    {
+        margin-top: 0px;
+    }
+    
+}
 .s1_text{
     font-size: 20px;
     width: 340px;
